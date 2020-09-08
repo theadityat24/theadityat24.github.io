@@ -1,0 +1,163 @@
+* {
+    background-color: #0B132B;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.contact {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: #5BC0BE !important;
+    width: 80vw;
+}
+
+.contact-icon {
+    font-size: calc(40px + 1vw);
+    margin-top: 50px;
+}
+
+.contact-icon:hover {
+    font-size: calc(45px + 1vw);
+    margin-top: 45px;
+}
+.contact-col {
+    margin-top: 5vh;
+
+}
+
+.name {
+    padding-top: calc(15vh - 4vw);
+    font-size: calc(50px + 4vw);
+    color: #6FFFE9;
+}
+
+.description {
+    color: #3A506B;
+    margin-top: 5vh;
+    font-size: calc(30px + 2vw);
+}
+
+
+
+.about {
+    background-color: #6AA6B4 !important;
+    padding: 4vh 0px 15vh;
+    overflow-y: hidden;
+}
+
+.about-title {
+    background-color: inherit;
+    margin-top: 4vh;
+    font-size: calc(30px + 2vw);
+    color: #0B132B;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.about-content {
+    background-color: inherit;
+    margin-right: min(300px, 10vw);
+    margin-left: min(300px, 10vw);
+    font-size: calc(20px + 1vw);
+    margin-top: 3vw;
+}
+.resume-button {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 40px;
+    color: #54adac;
+    border: 2px solid #5BC0BE;
+    padding: 10px calc(50px + 10vw);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.resume-button:hover {
+    color: #0B132B;
+    background-color: #5BC0BE;
+    padding: 10px calc(100px + 10vw);
+    border-radius: 15px;
+}
+
+.col-12, .col-md-4 {
+    /* border: 2px solid white; */
+}
+
+.skills-row {
+    margin-top: 3vh;
+    margin-right: min(50px, 5vw);
+    margin-left: min(50px, 5vw);
+    color: #5BC0BE;
+    margin-bottom: 5vh;
+}
+
+.row-title {
+    font-size: calc(40px + .5vw);
+    margin: auto;
+}
+
+.skill-box {
+    height: 15vh;
+    font-size: calc(30px + 2vw);
+    line-height: 15vh;
+    border: 2px solid #5BC0BE;
+    fill: #5BC0BE;
+    overflow-y: hidden;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3vh;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#django-logo-wrap {
+
+}
+
+.skill-box:hover {
+    font-size: calc(35px + 2vw);
+    background-color: #5BC0BE;
+    color: #0B132B;
+    border-radius: 25px;
+    fill: #0B132B;
+}
+
+.skill-box-in {
+    background-color: inherit;
+    overflow-y: hidden;
+}
+
+.top-skill {
+    margin-top: 5vh;
+}
+
+.fa, .fa:hover, .fab, .fab:hover {
+    background-color: inherit;
+    overflow-y: hidden;
+}
+
+.bottom-skill {
+    margin-bottom: 5vh;
+}
+
+#django-logo {
+    background-color: inherit;
+    width: 55%;
+    margin-left: 22.5%;
+    margin-bottom: 5%;
+
+}
+
+#django-logo:hover {
+    background-color: inherit;
+    fill: inherit;
+}
